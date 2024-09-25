@@ -1,0 +1,110 @@
+/* General Styling */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f4f9; /* Light background for a clean look */
+    margin: 0; /* Remove default margin */
+    padding: 0 30px; /* Add some space on the sides */
+    color: #333; /* Dark text color for readability */
+}
+
+/* Header Styling */
+header h1 {
+    font-size: 2em; /* Bigger font for the header */
+    color: #0056b3; /* Dark blue color for contrast */
+    text-align: center; /* Center the heading */
+    margin: 20px 0; /* Space above and below the header */
+}
+
+/* Main Container */
+main {
+    width: 80%; /* Make the main content take 80% of the screen width */
+    margin: 20px auto; /* Center the main content */
+    background-color: #ffffff; /* White background for the form */
+    padding: 20px; /* Padding inside the form for spacing */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for a 3D effect */
+}
+
+/* Fieldset Styling */
+fieldset {
+    border: 2px solid #0056b3; /* Blue border to make fieldset stand out */
+    padding: 20px; /* Padding inside the fieldset */
+    margin-bottom: 20px; /* Space between fieldsets */
+    border-radius: 8px; /* Slightly rounded corners */
+}
+
+legend {
+    font-size: 1.2em; /* Make the legend a bit larger */
+    color: #0056b3; /* Match the blue color of the fieldset border */
+    padding: 0 10px; /* Small padding inside the legend */
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Label and Input Fields Styling */
+label {
+    display: block; /* Make labels appear above input fields */
+    margin: 10px 0 5px 0; /* Add space around labels */
+    font-weight: bold; /* Bold labels for better visibility */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Padding inside the fields for better usability */
+    margin-bottom: 10px; /* Space below the fields */
+    border: 1px solid #ccc; /* Light gray border for inputs */
+    border-radius: 4px; /* Slightly rounded corners */
+    box-sizing: border-box; /* Include padding and border in the width */
+    font-size: 1em; /* Keep the font size readable */
+}
+
+textarea {
+    resize: vertical; /* Allow the textarea to be resized vertically */
+}
+
+/* Button Styling */
+button {
+    background-color: #0056b3; /* Blue button */
+    color: #fff; /* White text */
+    padding: 10px 20px; /* Padding for a larger clickable area */
+    border: none; /* No border for a cleaner look */
+    border-radius: 4px; /* Slightly rounded button */
+    font-size: 1em; /* Keep the font size readable */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button:hover {
+    background-color: #003d80; /* Darker blue on hover for a nice effect */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #f4f4f9; /* Match the background color */
+    padding: 10px 0; /* Space inside the footer */
+    text-align: center; /* Center the footer text */
+    font-size: 0.9em; /* Slightly smaller text */
+    color: #333; /* Dark text color for readability */
+}
+
+footer a {
+    color: #0056b3; /* Blue color for links */
+    text-decoration: none; /* No underline by default */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover for clarity */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    main {
+        width: 95%; /* Make the content take more width on smaller screens */
+    }
+
+    button {
+        width: 100%; /* Make the button full-width on smaller screens */
+        padding: 15px; /* Increase padding for a bigger button on mobile */
+    }
+}
